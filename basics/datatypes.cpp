@@ -28,6 +28,6 @@ int main() {
     cout << "Character: " << d << endl;
     cout << "Boolean: " << e << endl;
     cout << "String: " << f << endl;
-
     return 0;
 }
+//jackyyyyy
