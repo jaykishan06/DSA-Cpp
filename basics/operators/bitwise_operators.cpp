@@ -7,6 +7,6 @@ using namespace std;
 	cout <<(100>> 3)<<endl; // right shift main divide karte h 100 divide 2 pow n 
 	 cout << (7^7)<< endl; // Same bits → 0 Different bits → 1
 
-     int a = 5; int b = a++ + ++a; std::cout << b;
+    //  int a = 5; int b = a++ + ++a; std::cout << b;
 	return 0;
  }
