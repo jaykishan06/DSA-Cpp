@@ -1,22 +1,21 @@
-// Problem: Print Even Numbers from 1 to N
-// Concept: Loop + Condition
+#include <iostream>
+using namespace std;
 
-class Solution {
-public:
-    void printEvenNumbers(int n) {
+int main() {
+    int n;
+    cin >> n;
 
-        // 1 se n tak loop chalayenge
-        for (int i = 1; i <= n; i++) {
+    // 1 se n tak loop
+    for (int i = 1; i <= n; i++) {
 
-            // check kar rahe hai ki number even hai ya nahi
-            if (i % 2 == 0) {
+        // even check
+        if (i % 2 == 0) {
 
-                // agar even hai to print karo
-                cout << i;
+            cout << i;
 
-                // last me extra space avoid karne ke liye
-                if (i + 2 <= n) cout << " ";
-            }
+            // extra space avoid
+            if (i + 2 <= n) cout << " ";
         }
     }
-};
+
+    return 0;
