@@ -1,8 +1,8 @@
 // Problem: Fancy Pattern-1
 // Concept: Hourglass Pattern using Nested Loops
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
 class Solution {
 public:
@@ -45,25 +45,25 @@ public:
     }
 };
 
-// int main() {
+int main() {
 
-//     int T;
-//     cin >> T;
+    int T;
+    cin >> T;
 
-//     while(T--) {
+    while(T--) {
 
-//         int n;
-//         char ch;
+        int n;
+        char ch;
 
-//         cin >> n >> ch;
+        cin >> n >> ch;
 
-//         Solution s;
-//         s.printPattern(n, ch);
+        Solution s;
+        s.printPattern(n, ch);
 
-//         if(T != 0) {
-//             cout << endl;
-//         }
-//     }
+        if(T != 0) {
+            cout << endl;
+        }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
