@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	
-	int arr[10];
+	char arr[10];
 	cout<<"enter the num of element want to store in arr"<<endl;
 		int n;
 	cin>>n;
