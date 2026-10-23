@@ -7,6 +7,7 @@ int countDigits(int n) {
     }
 
     int digit = n % 10;
+  //to get the module of the numbe we take as Input
 
     if (digit > 5) {
         return 1 + countDigits(n / 10);
