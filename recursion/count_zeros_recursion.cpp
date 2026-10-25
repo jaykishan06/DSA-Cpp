@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 int countZeros(int n) {
     // Special case: zero itself contains one zero
     if (n == 0) {
